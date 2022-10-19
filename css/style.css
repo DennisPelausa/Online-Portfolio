@@ -43,3 +43,89 @@
     display: block;
     margin: 5px 0;
 }
+
+.social a:hover {
+    background: crimson;
+}
+
+/* ------------style for container */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    width: 85%;
+    min-height: 50px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header ul {
+    width: 100%;
+    list-style: none;
+    min-height: 50px;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+
+ul li a:hover, active {
+    background: crimson;
+}
+
+header .logo {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header .logo h1 {
+    font-family: 'Lobster', cursive;
+    color: crimson;
+}
+
+label {
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    display:  none;
+}
+
+#chk1 {
+    display: none;
+}
+
+/* ------------section style here-------- */
+
+section {
+    width: 85%;
+    margin: auto;
+    min-height: 100vh;
+    background: #0004;
+    border-radius: 5px;
+    box-shadow: 0 0 13px 2px #000;
+}
+
+#home {
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
