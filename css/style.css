@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg1 {
+    width: 100%;
+    min-height: 800px;
+    background: url('/image/hero.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.bg2 {
+    width: 100%;
+    min-height: 800px;
+    background: #0005;
+}
+
+.bg3 {
+    width: 100%;
+    min-height: 500px;
+    background: #222;
+}
+
+.social {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%);
+    z-index: 99;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    background: teal;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    margin: 5px 0;
+}

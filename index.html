@@ -7,17 +7,128 @@
     <title>Dennis Pelausa Portfolio</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Poppins&display=swap">
-   <link rel="stylesheet" href="hhttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css">
+   <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
 </head>
 <body>
 <div class="bg1"></div>
 <div class="bg2"></div>
 <div class="bg3"></div>
+<!-- side buttons for social, testing only remove if not responsive -->
 <div class="social">
-    <a href="#" class="fa-facebook"></a>
+    <a href="#" class="fa fa-facebook"></a>
     <a href="#" class="fa fa-twitter"></a>
     <a href="#" class="fa fa-instagram"></a>
     <a href="#" class="fa fa-linkedin"></a>
+</div>
+<div class="container">
+<!-- HEADER START -->
+    <header>
+        <input type="checkbox" id="chk1">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#">HIRE ME</a></li>
+            <label for="chk1">
+                <i class="fa fa-times"></i>
+            </label>
+        </ul>
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+            <div class="logo">
+                <h1>Dev AT</h1>
+            </div>
+    </header>
+<!-- HEADER END -->
+    <section>
+        <div id="home">
+            <div class="home-text">
+                <h3>Welcome</h3>
+                <h2>I am a Full Stack Web Developer Student of KodeGo</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                    earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                    eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div id="about">
+            <div class="about-thumb">
+                <img src="image/profpic.jpg" alt="">
+            </div>
+            <div class="about-infor">
+                <h2>About me</h2>
+                <h3>Developer</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                    earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                    eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                    earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                    eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+                </p>
+                <a href="#">Hire me</a>
+            </div>
+        </div>
+            <div id="services">
+                <div class="servces-text">
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                        earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                        eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <div class="box-thumb">
+                        <img src="image/balloon.jpg" alt="">
+                        <div class="box-text">
+                                <h2>Design</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                                    earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                                    eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+                                </p>                        </div>
+                        </div>
+                    </div>
+                    <div class="box-thumb">
+                        <img src="image/coast.jpg" alt="">
+                        <div class="box-text">
+                                <h2>Development</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                                    earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                                    eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+                                </p>                        </div>
+                        </div>
+                    </div>
+                    <div class="box-thumb">
+                        <img src="image/island.jpg" alt="">
+                        <div class="box-text">
+                                <h2>SEO</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                                    earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                                    eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+                                </p>                        </div>
+                        </div>
+                    </div>
+            </div>
+    </section>
+    <footer id="contact">
+        <div class="foot-content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, dolorem? Excepturi 
+                earum, molestiae aspernatur fugit debitis itaque in culpa ad 
+                eligendi quam. Alias blanditiis eveniet modi asperiores rerum aspernatur sequi.
+            </p>
+            <form>
+                <input type="text" name="fullname" id="name" required placeholder="Full Name">
+                <input type="email" name="mail" id="mail" required placeholder="Email Address">
+                <textarea name="message" id="mess" placeholder="Write your message here""></textarea>
+                <input type="submit" value="Send">
+            </form>
+            <p>Copyright &#169 by Dennis Pelausa</p>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
