@@ -9,7 +9,7 @@
 .bg1 {
     width: 100%;
     min-height: 800px;
-    background: url('/image/hero.jpg') no-repeat center;
+    background: url('image/hero.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -215,7 +215,7 @@ section {
     padding: 10px 25px;
 }
 
-/* ---------------Portfolio----------- */
+/* ---------------Portfolio Area----------- */
 #services {
     width: 100%;
     padding: 30px 0;
