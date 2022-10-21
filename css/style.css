@@ -9,7 +9,7 @@
 .bg1 {
     width: 100%;
     min-height: 800px;
-    background: url('image/hero.jpg') no-repeat center;
+    background: url('/image/hero.jpg') no-repeat center;
     background-size: cover;
 }
 
