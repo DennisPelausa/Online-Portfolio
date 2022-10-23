@@ -9,7 +9,7 @@
 .bg1 {
     width: 100%;
     min-height: 800px;
-    background: url('/image/hero.jpg') no-repeat center;
+    background: url('hero.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -29,6 +29,7 @@
     position: fixed;
     top: 50%;
     left: 3px;
+    margin-left: 5px;
     transform: translate(-50%);
     z-index: 99;
 }
@@ -86,7 +87,8 @@ header ul li a {
 }
 
 ul li a:hover, active {
-    background: crimson;
+    background: white;
+    color: #000D12;
 }
 
 header .logo {
@@ -97,7 +99,8 @@ header .logo {
 
 header .logo h1 {
     font-family: 'Lobster', cursive;
-    color: crimson;
+    color: rgba(241, 224, 227, 0.911);
+    text-shadow: 1px 2px 2px #1C6EA4;
 }
 
 label {
@@ -158,7 +161,7 @@ section {
     color: white;
     text-decoration: none;
     display: inline-block;
-    background: black;
+    background: rgb(43, 42, 42);
     padding: 10px 25px;
     margin-top: 20px;
 }
@@ -166,7 +169,7 @@ section {
 /* ------ABOUT Stylinh------- */
 #about {
     width: 100%;
-    background: #111;
+    background: #000D12;
     padding: 50px 0;
     display: flex;
     justify-content: space-around;
@@ -188,7 +191,7 @@ section {
     display: block;
     object-fit: cover;
     position: absolute;
-    transform: translateX(20px) translateY(-20px);
+    transform: translateX(15px) translateY(-15px);
 }
 
 #about .about-infor {
@@ -257,11 +260,13 @@ section {
     height: 100%;
     display: block;
     object-fit: cover;
-    transition: 5s linear;
+    transition-property: 5s linear;
 }
 
 .box-thumb:hover img {
-    transform: scale (1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 .box-thumb .box-text {
@@ -278,6 +283,11 @@ section {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.box-thumb .box-text a {
+    text-decoration: none;
+    color: white;
 }
 
 .box-text h2 {
