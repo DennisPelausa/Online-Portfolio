@@ -153,7 +153,7 @@ section {
 }
 
 #home .home-text p {
-    max-width: 550px;
+    max-width: 590px;
     margin: auto;
 } 
 
@@ -162,8 +162,8 @@ section {
     text-decoration: none;
     display: inline-block;
     background: rgb(43, 42, 42);
-    padding: 10px 25px;
-    margin-top: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
 
 /* ------ABOUT Stylinh------- */
